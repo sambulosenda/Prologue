@@ -10,6 +10,7 @@
 		097221FB1B60512800834ECA /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097221FA1B60512800834ECA /* OverlayView.swift */; };
 		097221FF1B60514700834ECA /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097221FE1B60514700834ECA /* ButtonViewController.swift */; };
 		097222011B60514F00834ECA /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097222001B60514F00834ECA /* SwipeViewController.swift */; };
+		09FF7CA41B62E51F00971F03 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FF7CA31B62E51F00971F03 /* LoginViewController.swift */; };
 		191D14781525C400D3E86FEC /* Pods_Koloda_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5243B3EDBF06248559332C86 /* Pods_Koloda_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4420661D1B44577500FD4CAD /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4420661B1B44577500FD4CAD /* OverlayView.xib */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
@@ -35,6 +36,8 @@
 		097221FA1B60512800834ECA /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OverlayView.swift; path = "../../../../Desktop/Prologue-WIP/Example/Koloda/OverlayView.swift"; sourceTree = "<group>"; };
 		097221FE1B60514700834ECA /* ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonViewController.swift; path = "../../../../Desktop/Prologue-WIP/Example/Koloda/ButtonViewController.swift"; sourceTree = "<group>"; };
 		097222001B60514F00834ECA /* SwipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwipeViewController.swift; path = "../../../../Desktop/Prologue-WIP/Example/Koloda/SwipeViewController.swift"; sourceTree = "<group>"; };
+		09D80B081B61AC0300B32AE1 /* KolodaBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KolodaBridgingHeader.h; sourceTree = "<group>"; };
+		09FF7CA31B62E51F00971F03 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1242FA2632AFB60821C100AF /* Pods-Koloda_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koloda_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Koloda_Tests/Pods-Koloda_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4420661C1B44577500FD4CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/OverlayView.xib; sourceTree = "<group>"; };
 		5243B3EDBF06248559332C86 /* Pods_Koloda_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Koloda_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,10 +81,10 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
+				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				AB88095976C7B6CA809587FB /* Pods */,
 				85B3405D0F2A73D9A709B3FA /* Frameworks */,
 			);
@@ -103,10 +106,12 @@
 				097222001B60514F00834ECA /* SwipeViewController.swift */,
 				097221FA1B60512800834ECA /* OverlayView.swift */,
 				097221FE1B60514700834ECA /* ButtonViewController.swift */,
+				09FF7CA31B62E51F00971F03 /* LoginViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				4420661B1B44577500FD4CAD /* OverlayView.xib */,
+				09D80B081B61AC0300B32AE1 /* KolodaBridgingHeader.h */,
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = Example;
@@ -223,6 +228,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 2NTZ3CLBYG;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -371,6 +377,7 @@
 				097222011B60514F00834ECA /* SwipeViewController.swift in Sources */,
 				097221FF1B60514700834ECA /* ButtonViewController.swift in Sources */,
 				097221FB1B60512800834ECA /* OverlayView.swift in Sources */,
+				09FF7CA41B62E51F00971F03 /* LoginViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,10 +514,16 @@
 			baseConfigurationReference = CF2C9E50C19A9188464AE19E /* Pods-Koloda_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Koloda/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = Koloda/KolodaBridgingHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -519,10 +532,15 @@
 			baseConfigurationReference = 093C6CC368001B8BAFD235CB /* Pods-Koloda_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Koloda/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = Koloda/KolodaBridgingHeader.h;
 			};
 			name = Release;
 		};
