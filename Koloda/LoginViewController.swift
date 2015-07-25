@@ -10,8 +10,25 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
-    
-    
+    @IBAction func loginBtnTapped(sender: AnyObject) {
+        GROAuth.loginWithGoodreadsWithCompletion { ([NSObject : AnyObject]!, error:NSError!) -> Void in
+            println("login-presented")
+            
+            if (error != nil) {
+                println("Error logging in: %@")
+            }
+        else {
+//            var username: NSURLRequest = GROAuth.goodreadsRequestForOAuthPath("api/auth_user", parameters: nil, HTTPmethod: "GET")
+//            var urlResponse: NSHTTPURLResponse? = nil
+//            var urlError: NSError = NSError()
+//            var responseData = NSURLConnection.sendSynchronousRequest(request: username, returningResponse: urlResponse, error: urlError)
+//            
+//            //  var result: String = "(\responseData), (\NSUTF8StringEncoding)"
+//            // println("result: %@", result)
+            }
+            
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
