@@ -10,7 +10,6 @@
 		097221FB1B60512800834ECA /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097221FA1B60512800834ECA /* OverlayView.swift */; };
 		097221FF1B60514700834ECA /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097221FE1B60514700834ECA /* ButtonViewController.swift */; };
 		097222011B60514F00834ECA /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097222001B60514F00834ECA /* SwipeViewController.swift */; };
-		09FF7CA41B62E51F00971F03 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FF7CA31B62E51F00971F03 /* LoginViewController.swift */; };
 		191D14781525C400D3E86FEC /* Pods_Koloda_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5243B3EDBF06248559332C86 /* Pods_Koloda_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4420661D1B44577500FD4CAD /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4420661B1B44577500FD4CAD /* OverlayView.xib */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
@@ -37,7 +36,6 @@
 		097221FE1B60514700834ECA /* ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonViewController.swift; path = "../../../../Desktop/Prologue-WIP/Example/Koloda/ButtonViewController.swift"; sourceTree = "<group>"; };
 		097222001B60514F00834ECA /* SwipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwipeViewController.swift; path = "../../../../Desktop/Prologue-WIP/Example/Koloda/SwipeViewController.swift"; sourceTree = "<group>"; };
 		09D80B081B61AC0300B32AE1 /* KolodaBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KolodaBridgingHeader.h; sourceTree = "<group>"; };
-		09FF7CA31B62E51F00971F03 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1242FA2632AFB60821C100AF /* Pods-Koloda_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koloda_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Koloda_Tests/Pods-Koloda_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4420661C1B44577500FD4CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/OverlayView.xib; sourceTree = "<group>"; };
 		5243B3EDBF06248559332C86 /* Pods_Koloda_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Koloda_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,7 +104,6 @@
 				097222001B60514F00834ECA /* SwipeViewController.swift */,
 				097221FA1B60512800834ECA /* OverlayView.swift */,
 				097221FE1B60514700834ECA /* ButtonViewController.swift */,
-				09FF7CA31B62E51F00971F03 /* LoginViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				4420661B1B44577500FD4CAD /* OverlayView.xib */,
@@ -377,7 +374,6 @@
 				097222011B60514F00834ECA /* SwipeViewController.swift in Sources */,
 				097221FF1B60514700834ECA /* ButtonViewController.swift in Sources */,
 				097221FB1B60512800834ECA /* OverlayView.swift in Sources */,
-				09FF7CA41B62E51F00971F03 /* LoginViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,7 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        GROAuth.setGoodreadsOAuthWithConsumerKey("hYSQDxEOCPvOpjk95M3mwQ", secret: "nwYAtjJ9rQpadFXdxaatuUmHBnqoYd5igmjxxpkQi4")
         return true
         
     }
