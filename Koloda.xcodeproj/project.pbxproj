@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09153C841B68323C00F2BD0D /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09153C831B68323C00F2BD0D /* ImageLoader.swift */; };
 		097221FB1B60512800834ECA /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097221FA1B60512800834ECA /* OverlayView.swift */; };
 		097221FF1B60514700834ECA /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097221FE1B60514700834ECA /* ButtonViewController.swift */; };
 		097222011B60514F00834ECA /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097222001B60514F00834ECA /* SwipeViewController.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09153C831B68323C00F2BD0D /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		093C6CC368001B8BAFD235CB /* Pods-Koloda_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koloda_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Koloda_Example/Pods-Koloda_Example.release.xcconfig"; sourceTree = "<group>"; };
 		097221FA1B60512800834ECA /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OverlayView.swift; path = "../../../../Desktop/Prologue-WIP/Example/Koloda/OverlayView.swift"; sourceTree = "<group>"; };
 		097221FE1B60514700834ECA /* ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonViewController.swift; path = "../../../../Desktop/Prologue-WIP/Example/Koloda/ButtonViewController.swift"; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				097222001B60514F00834ECA /* SwipeViewController.swift */,
+				09153C831B68323C00F2BD0D /* ImageLoader.swift */,
 				097221FA1B60512800834ECA /* OverlayView.swift */,
 				097221FE1B60514700834ECA /* ButtonViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -373,6 +376,7 @@
 			files = (
 				097222011B60514F00834ECA /* SwipeViewController.swift in Sources */,
 				097221FF1B60514700834ECA /* ButtonViewController.swift in Sources */,
+				09153C841B68323C00F2BD0D /* ImageLoader.swift in Sources */,
 				097221FB1B60512800834ECA /* OverlayView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
