@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sGg-fU-nfE" userLabel="UnpushedButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sGg-fU-nfE" userLabel="UnpushedButton">
                                 <rect key="frame" x="154" y="154" width="294" height="294"/>
                                 <accessibility key="accessibilityConfiguration" label="UnpushedButton">
                                     <bool key="isElement" value="YES"/>
@@ -102,8 +102,8 @@
                                     <constraint firstItem="Un4-e1-II6" firstAttribute="trailing" secondItem="Mnc-Dd-Z3X" secondAttribute="trailingMargin" id="qDe-cV-j8f"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAd-kH-OMn">
-                                <rect key="frame" x="220" y="446" width="285" height="140"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAd-kH-OMn">
+                                <rect key="frame" x="315" y="468" width="95" height="96"/>
                                 <state key="normal" image="btn_like_normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
